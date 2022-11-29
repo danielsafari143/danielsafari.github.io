@@ -53,14 +53,10 @@ window.addEventListener('resize', () => {
     if (window.innerWidth > 768) {
       document.getElementById('humberger').style.display = 'none';
     }
+  } else if (document.getElementById('header-link').className === 'header-link-show') {
+    document.getElementById('humbergerIco').style.display = 'display';
   } else {
-    for (const vare of document.getElementById('header-link').classList) {
-      if (vare === 'header-link-show') {
-        document.getElementById('humbergerIco').style.display = 'display';
-      } else {
-        document.getElementById('humberger').style.display = 'block';
-      }
-    }
+    document.getElementById('humberger').style.display = 'block';
   }
 });
 
