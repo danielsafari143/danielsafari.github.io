@@ -54,8 +54,8 @@
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 .main .main-content-para {
   font-family: "Open Sans", serif;
@@ -90,9 +90,13 @@
   gap: 20px;
   border-bottom: 1px solid #ebe9e9;
 }
-.creative .main-content-title-2 {
+.creative .about-main-content-title-2 {
+  font-family: "COCOGOOSE", sans-serif;
   color: #272a31;
-  text-align: center;
+}
+.creative .about-centered-para {
+  font-family: "COCOGOOSE", sans-serif;
+  color: #272a31;
 }
 .creative .main-content-img-text {
   display: flex;
@@ -121,9 +125,9 @@
   background-color: white;
   box-sizing: border-box;
 }
-.creative-2 .main-content-title-2 {
+.creative-2 .about-main-content-title-2 {
+  font-family: "COCOGOOSE", sans-serif;
   color: #272a31;
-  text-align: center;
 }
 .creative-2 .main-content-img-text {
   display: flex;

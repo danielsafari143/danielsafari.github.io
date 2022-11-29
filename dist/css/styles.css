@@ -198,8 +198,8 @@
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 .main .main-content-para {
   font-family: "Open Sans", serif;
@@ -234,9 +234,13 @@
   gap: 20px;
   border-bottom: 1px solid #ebe9e9;
 }
-.creative .main-content-title-2 {
+.creative .about-main-content-title-2 {
+  font-family: "COCOGOOSE", sans-serif;
   color: #272a31;
-  text-align: center;
+}
+.creative .about-centered-para {
+  font-family: "COCOGOOSE", sans-serif;
+  color: #272a31;
 }
 .creative .main-content-img-text {
   display: flex;
@@ -265,9 +269,9 @@
   background-color: white;
   box-sizing: border-box;
 }
-.creative-2 .main-content-title-2 {
+.creative-2 .about-main-content-title-2 {
+  font-family: "COCOGOOSE", sans-serif;
   color: #272a31;
-  text-align: center;
 }
 .creative-2 .main-content-img-text {
   display: flex;
@@ -436,8 +440,9 @@
 }
 .main .main-content-para {
   font-family: "Open Sans", serif;
-  color: white;
+  color: #272a31;
   font-size: 12px;
+  padding: 5px;
 }
 .main .main-content-title-3 {
   font-family: "Open Sans", serif;
@@ -458,7 +463,7 @@
   justify-content: center;
   align-items: center;
   background-image: url("../../img/mosaic.png");
-  padding: 20px;
+  padding: 10px;
   box-sizing: border-box;
 }
 .main .program .program-item {
@@ -477,9 +482,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 5px;
+  padding: 3px;
   gap: 10px;
   box-sizing: border-box;
+  background-color: rgba(253, 252, 252, 0.3);
 }
 .main .program .program-items-section {
   text-align: center;
@@ -487,12 +493,16 @@
 .main .program .program-items-title {
   color: #ec5242;
   font-family: "Open Sans", serif;
+  padding: 1px;
+  margin: 1px;
 }
 .main .program .program-title {
   color: #ec5242;
 }
 .main .program .program-items-para {
   font-family: "Open Sans", serif;
+  padding: 1px;
+  margin: 1px;
   color: white;
 }
 .main .program .program-items-title-link {
@@ -516,7 +526,7 @@
     padding: 10px;
     height: auto;
     padding: 10px;
-    width: 90%;
+    width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
