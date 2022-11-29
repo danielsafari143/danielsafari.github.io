@@ -28,3 +28,4 @@ export const courses = {
     texte: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates rem harum velit',
   },
 };
+export default courses;
