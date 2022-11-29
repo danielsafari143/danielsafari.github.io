@@ -1,0 +1,619 @@
+@import url("https://fonts.cdnfonts.com/css/cocogoose");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+@import url("https://fonts.cdnfonts.com/css/cocogoose");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+@import url("https://fonts.cdnfonts.com/css/cocogoose");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+.header-section-1 {
+  background-color: #ebe9e9;
+  width: 100%;
+  height: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.header-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.header-list {
+  list-style: none;
+  font-family: "COCOGOOSE", sans-serif;
+  font-size: 12px;
+}
+
+.header-list-first {
+  list-style: none;
+}
+
+.header-list-link {
+  text-decoration: none;
+  font-family: "COCOGOOSE", sans-serif;
+  color: #ebe9e9;
+}
+
+.header-list-first-link {
+  text-decoration: none;
+  font-family: "COCOGOOSE", sans-serif;
+  color: #ec5242;
+}
+
+.header-link {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.header-link-humberger {
+  padding-top: 20px;
+  width: 100%;
+  height: 580px;
+  display: block;
+  position: absolute;
+  margin-top: 0;
+  left: 0;
+  right: 0;
+  background-color: #272a31;
+  box-sizing: border-box;
+  z-index: 1000;
+}
+
+#humbergerIco {
+  display: none;
+}
+
+.header-link-show {
+  padding-top: 80px;
+  height: 450px;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  gap: 20px;
+  font-size: 16px;
+}
+
+.header-section-image {
+  width: 40px;
+  height: 40px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.header-section-hamburger {
+  display: none;
+}
+
+.header-section-1link {
+  color: #ec5242;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  gap: 10px;
+  float: right;
+}
+
+.header-section-1-list {
+  padding-top: 2px;
+  padding-right: 10px;
+  text-decoration: none;
+  font-family: "Open Sans", serif;
+  color: #ec5242;
+  font-size: 12px;
+}
+
+.header-section-1-list-link {
+  padding-top: 2px;
+  padding-right: 10px;
+  text-decoration: none;
+  font-family: "Open Sans", serif;
+  color: #ec5242;
+  font-size: 12px;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    background-image: url("https://wallpaperaccess.com/full/1772226.jpg");
+  }
+  .header-section {
+    justify-content: flex-start;
+  }
+  .header-section-image {
+    display: none;
+  }
+  .header-link {
+    display: none;
+  }
+  .header-section-hamburger {
+    display: block;
+  }
+  .header-section-1 {
+    display: none;
+  }
+}
+.about {
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+.about .footer {
+  width: 100%;
+  height: 200px;
+  background-color: #272a31;
+}
+.about .footer .footer-partner {
+  background-color: #272a31;
+  height: 100px;
+  padding: 40px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.about .footer .footer-partner-title {
+  font-family: "COCOGOOSE", sans-serif;
+  color: #ebe9e9;
+  font-weight: 400;
+  font-size: 16px;
+}
+.about .footer .footer-partner-para {
+  font-family: "Open Sans", serif;
+  color: #ebe9e9;
+  font-weight: 400;
+  font-size: 11px;
+}
+@media screen and (max-width: 584px) {
+  .about .footer .texte {
+    display: none;
+  }
+  .about .footer .footer-partner {
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    gap: 5px;
+  }
+}
+
+.main .main-content {
+  width: 100%;
+  height: auto;
+  background-image: url("https://wallpaperaccess.com/full/1772226.jpg");
+  background-repeat: repeat;
+  background-size: cover;
+  padding: 40px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.main .main-content-para {
+  font-family: "Open Sans", serif;
+  color: white;
+  font-size: 12px;
+}
+.main .main-content-para-1 {
+  font-family: "Open Sans", serif;
+  color: white;
+  font-size: 11px;
+}
+.main .main-content-title-3 {
+  font-family: "Open Sans", serif;
+  color: #ec5242;
+  font-size: 16px;
+}
+.main .main-content-title-link {
+  text-decoration: none;
+  font-family: "Open Sans", serif;
+  color: #ec5242;
+  font-size: 26px;
+}
+
+.creative {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  gap: 20px;
+  border-bottom: 1px solid #ebe9e9;
+}
+.creative .main-content-title-2 {
+  color: #272a31;
+  text-align: center;
+}
+.creative .main-content-img-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid #ebe9e9;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.creative .main-content-img-text .footer-partner-para {
+  color: #272a31;
+  font-family: "COCOGOOSE", sans-serif;
+  font-size: 15px;
+}
+
+.creative-2 {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  box-sizing: border-box;
+}
+.creative-2 .main-content-title-2 {
+  color: #272a31;
+  text-align: center;
+}
+.creative-2 .main-content-img-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 20px;
+  box-sizing: border-box;
+  position: relative;
+  text-align: center;
+  color: white;
+  flex-wrap: wrap;
+}
+.creative-2 .main-content-img-text .footer-partner-para {
+  color: #272a31;
+  font-family: "COCOGOOSE", sans-serif;
+  font-size: 15px;
+}
+.creative-2 .main-content-img-text .centered {
+  background-image: url("https://assets.entrepreneur.com/content/3x2/2000/20181221212044-GettyImages-970432726.jpeg?width=300&crop=1:1");
+  filter: opacity(0.5) drop-shadow(0 0 0 rgb(230, 28, 28));
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 300px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.creative-2 .main-content-img-text .centered-title {
+  color: white;
+  font-family: "COCOGOOSE", sans-serif;
+  font-size: 20px;
+}
+.creative-2 .main-content-img-text .centered-title {
+  color: white;
+  font-family: "COCOGOOSE", sans-serif;
+  font-size: 16px;
+}
+
+.main .main-content-title-1 {
+  color: white;
+  font-family: "COCOGOOSE", sans-serif;
+}
+.main .main-content-title-2 {
+  color: white;
+  font-family: "Open Sans", serif;
+}
+.main .speakers {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.main .speakers .speakers-title {
+  font-family: "COCOGOOSE", sans-serif;
+  font-size: 16px;
+  text-align: center;
+}
+.main .speakers .speaker-items-title {
+  font-family: "COCOGOOSE", sans-serif;
+  padding-top: 0;
+}
+.main .speakers .speaker-items-para-1 {
+  color: #ec5242;
+  font-style: italic;
+  margin-top: 0;
+  padding-top: 0;
+}
+.main .speakers .peaker-items-para-separate {
+  width: 30px;
+  margin-left: 0;
+  margin-top: 0;
+  padding-top: 0;
+  background-color: #ebe9e9;
+}
+.main .speakers .speaker-item {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  padding-right: 80px;
+  padding-left: 80px;
+  box-sizing: border-box;
+  gap: 5px;
+}
+.main .speakers .speaker-items {
+  height: auto;
+  padding: 20px;
+  font-family: "Open Sans", serif;
+  color: #272a31;
+  font-size: 12px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.main .speakers .speaker-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin-right: 10px;
+}
+.main .speakers .speakers-btn {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .main .speakers .speakers {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .main .speakers .speaker-item {
+    grid-template-columns: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: white;
+  }
+  .main .speakers .speakers-btn {
+    display: block;
+    width: 95%;
+    height: auto;
+    text-align: center;
+    background-color: white;
+    border: 1px solid #ebe9e9;
+    padding: 20px;
+  }
+}
+@media screen and (max-width: 885px) {
+  .main .speakers .speaker-item {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+@media screen and (max-width: 715px) {
+  .main .speakers .speaker-item {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+@media screen and (max-width: 685px) {
+  .main .speakers .speaker-item {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+.main .main-content {
+  width: 100%;
+  height: auto;
+  background-image: url("https://wallpaperaccess.com/full/1772226.jpg");
+  background-repeat: repeat;
+  background-size: cover;
+  padding: 40px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.main .main-content-para {
+  font-family: "Open Sans", serif;
+  color: white;
+  font-size: 12px;
+}
+.main .main-content-title-3 {
+  font-family: "Open Sans", serif;
+  color: #ec5242;
+  font-size: 16px;
+}
+.main .main-content-title-link {
+  text-decoration: none;
+  font-family: "Open Sans", serif;
+  color: #ec5242;
+  font-size: 26px;
+}
+.main .program {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../../img/mosaic.png");
+  padding: 20px;
+  box-sizing: border-box;
+}
+.main .program .program-item {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.main .program .program-items {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+  box-sizing: border-box;
+}
+.main .program .program-items-section {
+  text-align: center;
+}
+.main .program .program-items-title {
+  color: #ec5242;
+  font-family: "Open Sans", serif;
+}
+.main .program .program-title {
+  color: #ec5242;
+}
+.main .program .program-items-para {
+  font-family: "Open Sans", serif;
+  color: white;
+}
+.main .program .program-items-title-link {
+  text-decoration: none;
+  color: #ec5242;
+}
+.main .program .program-items-link {
+  text-decoration: none;
+  color: #ec5242;
+  font-family: "COCOGOOSE", sans-serif;
+  font-size: 20px;
+}
+@media screen and (max-width: 768px) {
+  .main .program .program-item {
+    flex-direction: column;
+  }
+  .main .program .program-items-section {
+    text-align: left;
+  }
+  .main .program .program-items {
+    padding: 10px;
+    height: auto;
+    padding: 20px;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+  }
+}
+
+.footer {
+  width: 100%;
+  height: 400px;
+  background-color: #ebe9e9;
+}
+.footer .partner-section {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  text-align: center;
+}
+.footer .partner-section-item {
+  list-style: none;
+  font-family: "COCOGOOSE", sans-serif;
+  color: #ec5242;
+  margin-top: 20px;
+  font-size: 20px;
+}
+.footer .partner-section-item-1 {
+  list-style: none;
+  font-family: "Open Sans", serif;
+  color: #ebe9e9;
+  margin-top: 20px;
+  font-weight: 100;
+  font-size: 20px;
+}
+.footer .partner {
+  background-color: #272a31;
+  height: auto;
+  padding: 40px;
+  box-sizing: border-box;
+}
+.footer .footer-partner {
+  background-color: #ebe9e9;
+  height: auto;
+  padding: 40px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.footer .partner-title {
+  font-family: "COCOGOOSE", sans-serif;
+  color: #ebe9e9;
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  border-bottom: 1px solid #ec5242;
+  width: 30px;
+  padding-bottom: 10px;
+}
+.footer .partner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer .footer-partner-title {
+  font-family: "COCOGOOSE", sans-serif;
+  color: #ec5242;
+  font-weight: 400;
+  font-size: 16px;
+}
+.footer .footer-partner-para {
+  font-family: "Open Sans", serif;
+  color: #272a31;
+  font-weight: 400;
+  font-size: 11px;
+}
+@media screen and (max-width: 584px) {
+  .footer .partner-section {
+    justify-content: center;
+  }
+  .footer .texte {
+    display: none;
+  }
+  .footer .footer-partner {
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    gap: 5px;
+  }
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,168 @@
+@import url("https://fonts.cdnfonts.com/css/cocogoose");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+.about {
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+.about .footer {
+  width: 100%;
+  height: 200px;
+  background-color: #272a31;
+}
+.about .footer .footer-partner {
+  background-color: #272a31;
+  height: 100px;
+  padding: 40px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.about .footer .footer-partner-title {
+  font-family: "COCOGOOSE", sans-serif;
+  color: #ebe9e9;
+  font-weight: 400;
+  font-size: 16px;
+}
+.about .footer .footer-partner-para {
+  font-family: "Open Sans", serif;
+  color: #ebe9e9;
+  font-weight: 400;
+  font-size: 11px;
+}
+@media screen and (max-width: 584px) {
+  .about .footer .texte {
+    display: none;
+  }
+  .about .footer .footer-partner {
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    gap: 5px;
+  }
+}
+
+.main .main-content {
+  width: 100%;
+  height: auto;
+  background-image: url("https://wallpaperaccess.com/full/1772226.jpg");
+  background-repeat: repeat;
+  background-size: cover;
+  padding: 40px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.main .main-content-para {
+  font-family: "Open Sans", serif;
+  color: white;
+  font-size: 12px;
+}
+.main .main-content-para-1 {
+  font-family: "Open Sans", serif;
+  color: white;
+  font-size: 11px;
+}
+.main .main-content-title-3 {
+  font-family: "Open Sans", serif;
+  color: #ec5242;
+  font-size: 16px;
+}
+.main .main-content-title-link {
+  text-decoration: none;
+  font-family: "Open Sans", serif;
+  color: #ec5242;
+  font-size: 26px;
+}
+
+.creative {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  gap: 20px;
+  border-bottom: 1px solid #ebe9e9;
+}
+.creative .main-content-title-2 {
+  color: #272a31;
+  text-align: center;
+}
+.creative .main-content-img-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid #ebe9e9;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.creative .main-content-img-text .footer-partner-para {
+  color: #272a31;
+  font-family: "COCOGOOSE", sans-serif;
+  font-size: 15px;
+}
+
+.creative-2 {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  box-sizing: border-box;
+}
+.creative-2 .main-content-title-2 {
+  color: #272a31;
+  text-align: center;
+}
+.creative-2 .main-content-img-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 20px;
+  box-sizing: border-box;
+  position: relative;
+  text-align: center;
+  color: white;
+  flex-wrap: wrap;
+}
+.creative-2 .main-content-img-text .footer-partner-para {
+  color: #272a31;
+  font-family: "COCOGOOSE", sans-serif;
+  font-size: 15px;
+}
+.creative-2 .main-content-img-text .centered {
+  background-image: url("https://assets.entrepreneur.com/content/3x2/2000/20181221212044-GettyImages-970432726.jpeg?width=300&crop=1:1");
+  filter: opacity(0.5) drop-shadow(0 0 0 rgb(230, 28, 28));
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 300px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.creative-2 .main-content-img-text .centered-title {
+  color: white;
+  font-family: "COCOGOOSE", sans-serif;
+  font-size: 20px;
+}
+.creative-2 .main-content-img-text .centered-title {
+  color: white;
+  font-family: "COCOGOOSE", sans-serif;
+  font-size: 16px;
+}/*# sourceMappingURL=about.css.map */

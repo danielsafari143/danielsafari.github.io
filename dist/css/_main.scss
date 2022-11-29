@@ -1,0 +1,224 @@
+.main{
+    .main-content-title-1{
+        color: white;
+        font-family: $coco;
+    }
+    .main-content-title-2{
+        color: white;
+        font-family: $lato;
+    }
+    .speakers{
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+        .speakers-title{
+            font-family: $coco;
+            font-size: 16px;
+            text-align: center;
+        }
+        .speaker-items-title{
+            font-family: $coco;
+            padding-top: 0;
+        }
+        
+        .speaker-items-para-1{
+            color:$bg-color-2;
+            font-style: italic;
+            margin-top: 0;
+            padding-top: 0;
+        }
+        .peaker-items-para-separate{
+            width: 30px;
+            margin-left: 0;
+            margin-top: 0;
+            padding-top: 0;
+            background-color: $bg-color-3;
+        }
+        .speaker-item{
+            display: grid;
+            grid-template-columns: auto auto;
+            justify-content: center;
+            padding-right:80px;
+            padding-left:80px;
+            box-sizing: border-box;
+            gap: 5px;
+        }
+        .speaker-items{
+            height: auto;
+            padding: 20px;
+            font-family: $lato;
+            color: $bg-color-1;
+            font-size: 12px;
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            box-sizing: border-box;
+        }
+        .speaker-img{
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: contain;
+            margin-right: 10px;
+        }
+        .speakers-btn{
+           display: none;
+        }
+       
+        @media screen and (max-width:768px) {
+            .speakers{
+                background-color: white;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+              
+            }
+            .speaker-item{
+                grid-template-columns: auto;
+                padding-right: 20px;
+                padding-left: 20px;
+                background-color: white;
+            }
+            .speakers-btn{
+                display: block;
+                width: 95%;
+                height: auto;
+                text-align: center;
+                background-color: white;
+                border: 1px solid $bg-color-3;
+                padding:20px ;
+            }
+        }
+       
+        @media screen and (max-width:885px){
+            .speaker-item{
+                padding-left:20px;
+                padding-right: 20px;
+            }
+        }
+        @media screen and (max-width:715px){
+            .speaker-item{
+                padding-left:10px;
+                padding-right:10px;
+            }
+        }
+        @media screen and (max-width:685px){
+            .speaker-item{
+                padding-left:5px;
+                padding-right:5px;
+            }
+        }
+    }
+     .main-content{
+
+        width: 100%;
+        height: auto;
+        background-image: url("https://wallpaperaccess.com/full/1772226.jpg");
+        background-repeat: repeat;
+        background-size:cover;
+        padding: 40px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+     }
+    
+     .main-content-para{
+        font-family: $lato;
+        color: white;
+        font-size: 12px;
+     }
+     .main-content-title-3{
+        font-family: $lato;
+        color: $bg-color-2;
+        font-size: 16px;
+     }
+     .main-content-title-link{
+        text-decoration: none;
+        font-family: $lato;
+        color: $bg-color-2;
+        font-size: 26px;
+     }
+     .program{
+            height: auto;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-image: url("../../img/mosaic.png");
+            padding: 20px;
+            box-sizing: border-box;
+
+            .program-item{
+                display: flex;
+                flex-direction: row;
+                gap: 20px;
+                justify-content: center;
+                align-items: center;
+                padding: 20px;
+                box-sizing: border-box;
+            }
+            .program-items{
+                height: auto;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                padding: 10px;
+                gap: 10px;
+                box-sizing: border-box;
+                
+            }
+            .program-items-section{
+                text-align: center;
+            }
+            .program-items-title{
+                color: $bg-color-2;
+                font-family: $lato;
+            
+            }
+            .program-title{
+                color: $bg-color-2;
+            }
+            .program-items-para{
+                font-family: $lato;
+                color: white;
+            }
+            .program-items-title-link{
+                text-decoration: none;
+                color: $bg-color-2;
+            }
+            .program-items-link{
+                text-decoration: none;
+                color: $bg-color-2;
+                font-family: $coco;
+                font-size: 20px;
+            }
+            @media screen and (max-width:768px) {
+                .program-item{
+                    flex-direction: column;
+                   
+                }
+                .program-items-section{
+                    text-align: left;
+                }
+                .program-items{
+                    padding: 10px;
+                    height: auto;
+                    padding: 20px;
+                    width: 90%;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    gap: 10px;
+                  
+                }
+            }
+        }
+}
