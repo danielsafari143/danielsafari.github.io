@@ -59,7 +59,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [Personal Portfolio Project] <a name="about-project"></a>
 
-> I have built a portfolio using HTML, CSS and JavaScript uing a design from a Figma template.
+> I have built a capstone project using HTML, CSS and JavaScript .
 
 **[your_project__name]** is a...
 
@@ -73,9 +73,12 @@ After you're finished please remove all the comments and instructions!
 <details>
   <summary>Server</summary>
   <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
+    <li><a href="https://expressjs.com/">javaScript</a></li>
+    <li><a href="https://expressjs.com/">html</a></li>
+    <li><a href="https://expressjs.com/">css</a></li>
   </ul>
 </details>
+
 
 <!-- Features -->
 
@@ -95,7 +98,7 @@ After you're finished please remove all the comments and instructions!
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://danielsafari143.github.io /)
+- [Live Demo Link](https://danielsafari143.github.io/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -126,7 +129,7 @@ Example command:
 
 Clone this repository to your desired folder:
 
-**``git clone https://github.com/danielsafari143/portfolio-mobile-layout.git``**
+**``git clonehttps://github.com/danielsafari143/danielsafari143.github.io.git``**
 
 
 <!--
