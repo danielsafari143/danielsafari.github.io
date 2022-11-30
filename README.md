@@ -129,7 +129,7 @@ Example command:
 
 Clone this repository to your desired folder:
 
-**``git clonehttps://github.com/danielsafari143/danielsafari143.github.io.git``**
+**``git clone https://github.com/danielsafari143/danielsafari143.github.io.git``**
 
 
 <!--

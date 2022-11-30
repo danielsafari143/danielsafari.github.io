@@ -24,5 +24,19 @@ export const data = {
     texte: 'Thank you very much for this platform because it pushes our students to work hard and face educational difficulties while improving their knowledge.',
 
   },
+  fifth: {
+    photo: 'https://assets.entrepreneur.com/content/3x2/2000/20181221212044-GettyImages-970432726.jpeg?width=300&crop=1:1',
+    name: 'Queen Zulu',
+    filds: 'Professor in computer science',
+    texte: 'Thank you very much for this platform because it pushes our students to work hard and face educational difficulties while improving their knowledge.',
+
+  },
+  sixth: {
+    photo: 'https://assets.entrepreneur.com/content/3x2/2000/20181221212044-GettyImages-970432726.jpeg?width=300&crop=1:1',
+    name: 'Queen Zulu',
+    filds: 'Professor in computer science',
+    texte: 'Thank you very much for this platform because it pushes our students to work hard and face educational difficulties while improving their knowledge.',
+
+  },
 };
 export default data;

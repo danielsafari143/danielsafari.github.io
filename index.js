@@ -6,20 +6,20 @@ const cours = document.getElementById('program');
 
 function speakers(arg, coursList) {
   Object.keys(data).forEach((key) => {
-    arg.innerHTML += `<div class="speaker-items">
-        <img class="speaker-img" src=${data[key].photo}>
+    arg.innerHTML += `<article class="speaker-items">
+            <img class="speaker-img" src=${data[key].photo}>
             <div class="speaker-items-section">
                 <h3 class="speaker-items-title">${data[key].name}</h3>
                 <p class="speaker-items-para-1">${data[key].filds}</p>
                 <hr class="peaker-items-para-separate">
                 <p class="speaker-items-para-2">${data[key].texte}</p>
             </div>
-        </div>`;
+        </article>`;
   });
 
   Object.keys(courses).forEach((key) => {
     coursList.innerHTML += `<div class="program-items">
-        <img  src="${courses[key].image}" width="50px">
+        <img  src="${courses[key].image}" width="30px">
         <div class="program-items-section">
             <h3 class="program-items-title"><a class="program-items-title-link" href="${courses[key].link}">${courses[key].title}</a></h3>
             <p class="program-items-para">${courses[key].texte}</p>
