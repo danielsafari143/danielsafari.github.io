@@ -400,12 +400,15 @@
   }
   .main .speakers .speakers-btn {
     display: block;
-    width: 95%;
+    width: 85vw;
     height: auto;
     text-align: center;
     background-color: white;
-    border: 1px solid #ebe9e9;
+    border: 1px solid #272a31;
     padding: 20px;
+    color: #272a31;
+    font-family: "Open Sans", serif;
+    text-decoration: none;
   }
 }
 @media screen and (max-width: 885px) {
@@ -501,9 +504,11 @@
 }
 .main .program .program-items-para {
   font-family: "Open Sans", serif;
-  padding: 1px;
+  padding: 0px;
   margin: 1px;
+  width: 100%;
   color: white;
+  text-align: justify;
 }
 .main .program .program-items-title-link {
   text-decoration: none;
@@ -608,6 +613,11 @@
   color: #272a31;
   font-weight: 400;
   font-size: 11px;
+}
+@media screen and (max-width: 768px) {
+  .footer #footer {
+    display: none;
+  }
 }
 @media screen and (max-width: 584px) {
   .footer .partner-section {

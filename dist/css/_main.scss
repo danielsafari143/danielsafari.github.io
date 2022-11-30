@@ -85,12 +85,15 @@
             }
             .speakers-btn{
                 display: block;
-                width: 95%;
+                width: 85vw;
                 height: auto;
                 text-align: center;
                 background-color: white;
-                border: 1px solid $bg-color-3;
+                border: 1px solid $bg-color-1;
                 padding:20px ;
+                color:$bg-color-1 ;
+                font-family:$lato;
+                text-decoration: none;
             }
         }
        
@@ -191,10 +194,13 @@
             }
             .program-items-para{
                 font-family: $lato;
-                padding: 1px;
+                padding: 0px;
                 margin: 1px;
+                width: 100%;
                 color: white;
+                text-align: justify;
             }
+            
             .program-items-title-link{
                 text-decoration: none;
                 color: $bg-color-2;
@@ -208,7 +214,7 @@
             @media screen and (max-width:768px) {
                 .program-item{
                     flex-direction: column;
-                   
+
                 }
                 .program-items-section{
                     text-align: left;
