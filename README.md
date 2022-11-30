@@ -59,7 +59,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [Personal Portfolio Project] <a name="about-project"></a>
 
-> I have built a portfolio using HTML, CSS and JavaScript uing a design from a Figma template.
+> I have built a capstone project using HTML, CSS and JavaScript .
 
 **[your_project__name]** is a...
 
