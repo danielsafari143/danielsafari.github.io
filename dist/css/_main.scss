@@ -1,13 +1,18 @@
 .main{
     .main-content-title-1{
         color: white;
-        font-size: 36PX;
+        font-size: 46PX;
+        font-weight: 900;
         font-family: $coco;
     }
-    
+    @media screen and (max-width:768px){
+        .main-content-title-1{
+            font-size: 36PX;
+        }
+    }
     .main-content-title-2{
         color: $bg-color-2;
-        font-size: 26px;
+        font-size: 30px;
         font-family: $lato;
     }
     .speaker-items-para-separate-2{
@@ -49,7 +54,7 @@
             font-style: italic;
             margin-top: 0;
             padding-top: 0;
-            font-size: 8px;
+            font-size: 10px;
         }
         .peaker-items-para-separate{
             width: 30px;
@@ -89,11 +94,17 @@
            
         }
         .speaker-img{
-            width: 150px;
-            height: 100px;
+            width: 125px;
+            height: 125px;
             object-fit: contain;
             box-sizing: border-box;
             margin-right: 10px;
+        }
+        .speaker-img_2{
+            position: relative;
+            top: -150px;
+            left: -20px;
+            z-index: -1;
         }
         .speakers-btn{
            display: none;
@@ -126,6 +137,15 @@
                 font-family:$lato;
                 text-decoration: none;
             }
+            .speaker-img{
+                width: 125px;
+                height: 125px;
+                z-index: 2;
+                position: relative;
+            }
+            .speaker-img_2{
+               z-index: 1;
+            }
         }
        
         @media screen and (max-width:885px){
@@ -156,7 +176,7 @@
      .main-content{
         width: 100%;
         height: auto;
-        background-color: rgba($color: $bg-color-3, $alpha: 0.3);
+        background-image: url("../../img/background.jpg");
         background-repeat: repeat;
         background-size:cover;
      }
@@ -167,17 +187,21 @@
         background-color: rgba($color: $bg-color-3, $alpha: 0.3);
         background-repeat: repeat;
         background-size:cover;
-        padding: 40px;
+        padding: 130px;
         box-sizing: border-box;
         display: flex;
         flex-direction: column;
         justify-content: center;
      }
-    
+     @media screen and (max-width:768px){
+        .main-content-1{
+            padding: 30px;
+        }
+     }
      .main-content-para{
         font-family: $lato;
         color: $bg-color-1;
-        font-size: 12px;
+        font-size: 13px;
         padding: 5px;
         width: 500px;
         border: 1px solid white;
@@ -209,7 +233,7 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            background-image: url("../../img/mosaic.png");
+            background-image: url("../../img/mosa.jpg");
             gap: 50px;
             padding: 10px;
             box-sizing: border-box;

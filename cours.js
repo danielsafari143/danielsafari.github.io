@@ -27,5 +27,12 @@ export const courses = {
     image: 'https://cdn-icons-png.flaticon.com/512/5968/5968350.png',
     texte: 'This course aims to give you the necessary knowledge in pyton . ',
   },
+  IA: {
+    author: 'Rodrigue Kamanda',
+    title: 'AI',
+    link: 'https://www.w3schools.com/ai/',
+    image: 'https://cdn-icons-png.flaticon.com/512/7301/7301901.png',
+    texte: 'This course aims to give you the necessary knowledge in AI . ',
+  },
 };
 export default courses;

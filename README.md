@@ -102,7 +102,7 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀Presentation of the project 
 
-- [Loom video](https://https://www.loom.com/share/ae802bf8a32147c29c36bb4b706ad634)
+- [Loom video](https://www.loom.com/share/6516808367f34eea84340fb4dc58b0ce)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

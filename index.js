@@ -7,7 +7,10 @@ const cours = document.getElementById('program');
 function speakers(arg, coursList) {
   Object.keys(data).forEach((key) => {
     arg.innerHTML += `<article class="speaker-items">
-            <img class="speaker-img" src=${data[key].photo} width='100px'>
+           <div>
+             <img class="speaker-img" src=${data[key].photo} width='200px'>
+             <img class="speaker-img_2" src="img/extrat.jpg" width='70px'>
+           </div>
             <div class="speaker-items-section">
                 <h3 class="speaker-items-title">${data[key].name}</h3>
                 <p class="speaker-items-para-1">${data[key].filds}</p>

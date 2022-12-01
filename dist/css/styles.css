@@ -216,7 +216,7 @@
 .main .main-content-ab {
   width: 100%;
   height: auto;
-  background-color: rgba(211, 211, 211, 0.3);
+  background-image: url("../../img/background.jpg");
   background-repeat: repeat;
   background-size: cover;
   box-sizing: border-box;
@@ -351,12 +351,18 @@
 
 .main .main-content-title-1 {
   color: white;
-  font-size: 36PX;
+  font-size: 46PX;
+  font-weight: 900;
   font-family: "COCOGOOSE", sans-serif;
+}
+@media screen and (max-width: 768px) {
+  .main .main-content-title-1 {
+    font-size: 36PX;
+  }
 }
 .main .main-content-title-2 {
   color: #ec5242;
-  font-size: 26px;
+  font-size: 30px;
   font-family: "Open Sans", serif;
 }
 .main .speaker-items-para-separate-2 {
@@ -397,7 +403,7 @@
   font-style: italic;
   margin-top: 0;
   padding-top: 0;
-  font-size: 8px;
+  font-size: 10px;
 }
 .main .speakers .peaker-items-para-separate {
   width: 30px;
@@ -434,12 +440,18 @@
   }
 }
 .main .speakers .speaker-img {
-  width: 150px;
-  height: 100px;
+  width: 125px;
+  height: 125px;
   -o-object-fit: contain;
      object-fit: contain;
   box-sizing: border-box;
   margin-right: 10px;
+}
+.main .speakers .speaker-img_2 {
+  position: relative;
+  top: -150px;
+  left: -20px;
+  z-index: -1;
 }
 .main .speakers .speakers-btn {
   display: none;
@@ -470,6 +482,15 @@
     font-family: "Open Sans", serif;
     text-decoration: none;
   }
+  .main .speakers .speaker-img {
+    width: 125px;
+    height: 125px;
+    z-index: 2;
+    position: relative;
+  }
+  .main .speakers .speaker-img_2 {
+    z-index: 1;
+  }
 }
 @media screen and (max-width: 885px) {
   .main .speakers .speaker-item {
@@ -498,7 +519,7 @@
 .main .main-content {
   width: 100%;
   height: auto;
-  background-color: rgba(211, 211, 211, 0.3);
+  background-image: url("../../img/background.jpg");
   background-repeat: repeat;
   background-size: cover;
 }
@@ -508,16 +529,21 @@
   background-color: rgba(211, 211, 211, 0.3);
   background-repeat: repeat;
   background-size: cover;
-  padding: 40px;
+  padding: 130px;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
+@media screen and (max-width: 768px) {
+  .main .main-content-1 {
+    padding: 30px;
+  }
+}
 .main .main-content-para {
   font-family: "Open Sans", serif;
   color: #272a31;
-  font-size: 12px;
+  font-size: 13px;
   padding: 5px;
   width: 500px;
   border: 1px solid white;
@@ -549,7 +575,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url("../../img/mosaic.png");
+  background-image: url("../../img/mosa.jpg");
   gap: 50px;
   padding: 10px;
   box-sizing: border-box;
@@ -749,6 +775,9 @@ body {
 }
 body .about-1 {
   text-align: center;
+}
+body .speaker-items-para-2 {
+  font-size: 12.5px;
 }
 body .about-2 {
   text-align: center;
