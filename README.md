@@ -225,10 +225,14 @@ If you like this project, give a star.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
+I would like to thank :
+- Microverse
+- coding partners 
+- [Cindy Shin in Behance](https://www.behance.net/adagio07)
 
-I would like to thank Microverse, coding partners and my standup team.
+## UI DESIGN <a name="design"></a>
 
+Original design idea by Cindy Shin in Behance. But, I personalized for my purposes.
 
 ## 📝 License <a name="license"></a>
 

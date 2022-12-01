@@ -769,4 +769,46 @@ body .about-3 {
 body .peaker-items-para-separate-5 {
   width: 40px;
   border: 1px solid #ec5242;
+}
+body .partner-2 {
+  display: none;
+}
+body .footer-partner-fb {
+  background-color: #272a31;
+  height: auto;
+  padding: 40px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+body .footer-partner-para-fb {
+  font-family: "Open Sans", serif;
+  color: white;
+  font-weight: 400;
+  font-size: 11px;
+}
+body .footer-partner-title-fb {
+  font-family: "COCOGOOSE", sans-serif;
+  color: white;
+  font-weight: 400;
+  font-size: 16px;
+}
+@media screen and (max-width: 768px) {
+  body .footer-partner-fb {
+    background-color: white;
+    padding: 10px;
+  }
+  body .footer-partner-para-fb {
+    color: #272a31;
+  }
+  body .footer-partner-title-fb {
+    color: #272a31;
+  }
+  body .partner-2 {
+    display: block;
+  }
 }/*# sourceMappingURL=styles.css.map */

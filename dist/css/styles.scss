@@ -30,4 +30,46 @@ body{
         width: 40px;
         border: 1px solid $bg-color-2;
     }
+    .partner-2{
+        display: none;
+    }
+    .footer-partner-fb{
+        background-color: $bg-color-1;
+        height: auto;
+        padding: 40px;
+        box-sizing: border-box;
+        display: flex;
+        align-items:center ;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .footer-partner-para-fb{
+        font-family: $lato;
+        color: white;
+        font-weight: 400;
+        font-size: 11px;
+    }
+    .footer-partner-title-fb{
+        font-family: $coco;
+        color: white;
+        font-weight: 400;
+        font-size: 16px;
+    }
+    @media screen and (max-width:768px){
+        .footer-partner-fb{
+            background-color: white;
+            padding: 10px;
+        }
+        .footer-partner-para-fb{
+            color: $bg-color-1;
+        }
+        .footer-partner-title-fb{
+            color: $bg-color-1;
+        }
+        .partner-2{
+            display: block;
+        }
+    }
 }
