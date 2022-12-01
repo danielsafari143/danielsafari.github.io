@@ -100,7 +100,12 @@ After you're finished please remove all the comments and instructions!
 
 - [Live Demo Link](https://danielsafari143.github.io/)
 
+## 🚀Presentation of the project 
+
+- [Loom video](https://https://www.loom.com/share/ae802bf8a32147c29c36bb4b706ad634)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <!-- GETTING STARTED -->
 
