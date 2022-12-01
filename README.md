@@ -230,7 +230,7 @@ I would like to thank :
 - coding partners 
 - [Cindy Shin in Behance](https://www.behance.net/adagio07)
 
-## UI DESIGN <a name="design"></a>
+## UI DESIGNER <a name="design"></a>
 
 Original design idea by Cindy Shin in Behance. But, I personalized for my purposes.
 
