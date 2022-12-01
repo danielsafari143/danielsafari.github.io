@@ -9,27 +9,36 @@
   height: 200px;
   background-color: #272a31;
 }
-.about .footer .footer-partner {
+.about .footer .footer-partner-1 {
   background-color: #272a31;
   height: 100px;
   padding: 40px;
   box-sizing: border-box;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
   gap: 20px;
+  border: 1px solid black;
+}
+.about .footer .footer-partner-1 .partner-2 {
+  background-color: #272a31;
+  height: auto;
+  padding: 40px;
+  text-align: center;
+  background-color: #272a31;
+  box-sizing: border-box;
 }
 .about .footer .footer-partner-title {
   font-family: "COCOGOOSE", sans-serif;
-  color: #ebe9e9;
+  color: #d3d3d3;
   font-weight: 400;
   font-size: 16px;
 }
 .about .footer .footer-partner-para {
   font-family: "Open Sans", serif;
-  color: #ebe9e9;
+  color: #d3d3d3;
   font-weight: 400;
   font-size: 11px;
 }
@@ -44,18 +53,18 @@
   }
 }
 
-.main .main-content {
+.main .main-content-ab {
   width: 100%;
   height: auto;
-  background-image: url("https://wallpaperaccess.com/full/1772226.jpg");
+  background-image: url("../../img/background.jpg");
   background-repeat: repeat;
   background-size: cover;
-  padding: 40px;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding: 80px;
 }
 .main .main-content-para {
   font-family: "Open Sans", serif;
@@ -64,7 +73,7 @@
 }
 .main .main-content-para-1 {
   font-family: "Open Sans", serif;
-  color: white;
+  color: #272a31;
   font-size: 11px;
 }
 .main .main-content-title-3 {
@@ -88,11 +97,16 @@
   align-items: center;
   background-color: white;
   gap: 20px;
-  border-bottom: 1px solid #ebe9e9;
+  border-bottom: 1px solid #d3d3d3;
 }
-.creative .main-content-title-2 {
+.creative .about-main-content-title-2 {
+  font-family: "Open Sans", serif;
+  size: 14px;
   color: #272a31;
-  text-align: center;
+}
+.creative .about-centered-para {
+  font-family: "COCOGOOSE", sans-serif;
+  color: #272a31;
 }
 .creative .main-content-img-text {
   display: flex;
@@ -100,7 +114,7 @@
   justify-content: center;
   align-items: center;
   gap: 10px;
-  border: 1px solid #ebe9e9;
+  border: 1px solid #d3d3d3;
   padding: 20px;
   box-sizing: border-box;
 }
@@ -121,9 +135,10 @@
   background-color: white;
   box-sizing: border-box;
 }
-.creative-2 .main-content-title-2 {
+.creative-2 .about-main-content-title-2 {
+  font-family: "Open Sans", serif;
+  size: 14px;
   color: #272a31;
-  text-align: center;
 }
 .creative-2 .main-content-img-text {
   display: flex;
@@ -165,4 +180,11 @@
   color: white;
   font-family: "COCOGOOSE", sans-serif;
   font-size: 16px;
+}
+
+.header-section-image-1 {
+  width: 40px;
+  height: 40px;
+  -o-object-fit: contain;
+     object-fit: contain;
 }/*# sourceMappingURL=about.css.map */

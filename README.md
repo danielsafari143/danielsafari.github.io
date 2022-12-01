@@ -73,9 +73,12 @@ After you're finished please remove all the comments and instructions!
 <details>
   <summary>Server</summary>
   <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
+    <li><a href="https://expressjs.com/">javaScript</a></li>
+    <li><a href="https://expressjs.com/">html</a></li>
+    <li><a href="https://expressjs.com/">css</a></li>
   </ul>
 </details>
+
 
 <!-- Features -->
 
@@ -95,7 +98,11 @@ After you're finished please remove all the comments and instructions!
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://danielsafari143.github.io /)
+- [Live Demo Link](https://danielsafari143.github.io/)
+
+## 🚀Presentation of the project 
+
+- [Loom video](https://www.loom.com/share/6516808367f34eea84340fb4dc58b0ce)
 
 ## 🚀Presentation of the project 
 
@@ -130,7 +137,7 @@ Example command:
 
 Clone this repository to your desired folder:
 
-**``git clone https://github.com/danielsafari143/danielsafari143.github.io.git``**
+**``git clonehttps://github.com/danielsafari143/danielsafari143.github.io.git``**
 
 
 <!--
@@ -226,10 +233,14 @@ If you like this project, give a star.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
+I would like to thank :
+- Microverse
+- coding partners 
+- [Cindy Shin in Behance](https://www.behance.net/adagio07)
 
-I would like to thank Microverse, coding partners and my standup team.
+## UI DESIGNER <a name="design"></a>
 
+Original design idea by Cindy Shin in Behance. But, I personalized for my purposes.
 
 ## 📝 License <a name="license"></a>
 
