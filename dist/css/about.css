@@ -22,6 +22,14 @@
   gap: 20px;
   border: 1px solid black;
 }
+.about .footer .footer-partner-1 .partner-2 {
+  background-color: #272a31;
+  height: auto;
+  padding: 40px;
+  text-align: center;
+  background-color: #272a31;
+  box-sizing: border-box;
+}
 .about .footer .footer-partner-title {
   font-family: "COCOGOOSE", sans-serif;
   color: #d3d3d3;
@@ -45,16 +53,18 @@
   }
 }
 
-.main .main-content {
+.main .main-content-ab {
   width: 100%;
   height: auto;
+  background-color: rgba(211, 211, 211, 0.3);
   background-repeat: repeat;
   background-size: cover;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
+  padding: 80px;
 }
 .main .main-content-para {
   font-family: "Open Sans", serif;
@@ -63,7 +73,7 @@
 }
 .main .main-content-para-1 {
   font-family: "Open Sans", serif;
-  color: white;
+  color: #272a31;
   font-size: 11px;
 }
 .main .main-content-title-3 {
@@ -90,7 +100,8 @@
   border-bottom: 1px solid #d3d3d3;
 }
 .creative .about-main-content-title-2 {
-  font-family: "COCOGOOSE", sans-serif;
+  font-family: "Open Sans", serif;
+  size: 14px;
   color: #272a31;
 }
 .creative .about-centered-para {
@@ -125,7 +136,8 @@
   box-sizing: border-box;
 }
 .creative-2 .about-main-content-title-2 {
-  font-family: "COCOGOOSE", sans-serif;
+  font-family: "Open Sans", serif;
+  size: 14px;
   color: #272a31;
 }
 .creative-2 .main-content-img-text {

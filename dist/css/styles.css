@@ -182,6 +182,14 @@
   gap: 20px;
   border: 1px solid black;
 }
+.about .footer .footer-partner-1 .partner-2 {
+  background-color: #272a31;
+  height: auto;
+  padding: 40px;
+  text-align: center;
+  background-color: #272a31;
+  box-sizing: border-box;
+}
 .about .footer .footer-partner-title {
   font-family: "COCOGOOSE", sans-serif;
   color: #d3d3d3;
@@ -205,16 +213,18 @@
   }
 }
 
-.main .main-content {
+.main .main-content-ab {
   width: 100%;
   height: auto;
+  background-color: rgba(211, 211, 211, 0.3);
   background-repeat: repeat;
   background-size: cover;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
+  padding: 80px;
 }
 .main .main-content-para {
   font-family: "Open Sans", serif;
@@ -223,7 +233,7 @@
 }
 .main .main-content-para-1 {
   font-family: "Open Sans", serif;
-  color: white;
+  color: #272a31;
   font-size: 11px;
 }
 .main .main-content-title-3 {
@@ -250,7 +260,8 @@
   border-bottom: 1px solid #d3d3d3;
 }
 .creative .about-main-content-title-2 {
-  font-family: "COCOGOOSE", sans-serif;
+  font-family: "Open Sans", serif;
+  size: 14px;
   color: #272a31;
 }
 .creative .about-centered-para {
@@ -285,7 +296,8 @@
   box-sizing: border-box;
 }
 .creative-2 .about-main-content-title-2 {
-  font-family: "COCOGOOSE", sans-serif;
+  font-family: "Open Sans", serif;
+  size: 14px;
   color: #272a31;
 }
 .creative-2 .main-content-img-text {
@@ -477,6 +489,12 @@
     padding-right: 5px;
   }
 }
+@media screen and (min-width: 768px) {
+  .main .speakers {
+    margin: 0;
+    background-color: rgba(211, 211, 211, 0.3);
+  }
+}
 .main .main-content {
   width: 100%;
   height: auto;
@@ -614,11 +632,23 @@
     gap: 10px;
   }
 }
+@media screen and (max-width: 678px) {
+  .main .program .speakers {
+    background-color: white;
+  }
+}
 
 .footer {
   width: 100%;
-  height: 400px;
-  background-color: #d3d3d3;
+  height: auto;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.footer .peaker-items-para-separate-4 {
+  border: 1px solid #ec5242;
+  width: 30px;
 }
 .footer .partner-section {
   padding: 0;
@@ -632,7 +662,7 @@
 .footer .partner-section-item {
   list-style: none;
   font-family: "COCOGOOSE", sans-serif;
-  color: #ec5242;
+  color: #d3d3d3;
   margin-top: 20px;
   font-size: 20px;
 }
@@ -668,9 +698,6 @@
   text-align: center;
   font-weight: 400;
   font-size: 16px;
-  border-bottom: 1px solid #ec5242;
-  width: 30px;
-  padding-bottom: 10px;
 }
 .footer .partner {
   display: flex;
@@ -695,6 +722,13 @@
     display: none;
   }
 }
+@media screen and (max-width: 766px) {
+  .footer .footer-partner {
+    padding-top: 40px;
+    padding-bottom: 10px;
+    background-color: white;
+  }
+}
 @media screen and (max-width: 584px) {
   .footer .partner-section {
     justify-content: center;
@@ -712,4 +746,27 @@
 body {
   padding: 0;
   margin: 0;
+}
+body .about-1 {
+  text-align: center;
+}
+body .about-2 {
+  text-align: center;
+  background-color: white;
+  padding: 20px;
+  box-sizing: border-box;
+  border: 1px solid white;
+  color: #272a31;
+}
+body .email {
+  color: #272a31;
+  font-family: "COCOGOOSE", sans-serif;
+}
+body .about-3 {
+  text-align: center;
+  color: #272a31;
+}
+body .peaker-items-para-separate-5 {
+  width: 40px;
+  border: 1px solid #ec5242;
 }/*# sourceMappingURL=styles.css.map */

@@ -147,6 +147,12 @@
             }
         }
     }
+    @media screen and (min-width:768px){
+        .speakers{
+            margin: 0;
+            background-color: rgba($color: $bg-color-3, $alpha: 0.3);
+        }
+    }
      .main-content{
         width: 100%;
         height: auto;
@@ -207,7 +213,6 @@
             gap: 50px;
             padding: 10px;
             box-sizing: border-box;
-
             .program-item{
                 display: flex;
                 flex-direction: row;
@@ -287,6 +292,11 @@
                     flex-direction: row;
                     align-items: center;
                     gap: 10px;
+                }
+            }
+            @media screen and (max-width:678px){
+                .speakers{
+                    background-color: white;
                 }
             }
         }
