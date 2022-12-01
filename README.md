@@ -106,7 +106,6 @@ After you're finished please remove all the comments and instructions!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
@@ -134,7 +133,7 @@ Example command:
 
 Clone this repository to your desired folder:
 
-**``git clone https://github.com/danielsafari143/danielsafari143.github.io.git``**
+**``git clonehttps://github.com/danielsafari143/danielsafari143.github.io.git``**
 
 
 <!--
