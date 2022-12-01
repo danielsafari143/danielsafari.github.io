@@ -773,6 +773,10 @@ body .peaker-items-para-separate-5 {
 body .partner-2 {
   display: none;
 }
+body .tech {
+  font-family: "Open Sans", serif;
+  font-size: 13px;
+}
 body .footer-partner-fb {
   background-color: #272a31;
   height: auto;
